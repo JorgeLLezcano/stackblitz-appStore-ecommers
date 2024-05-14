@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  padding-top: 0px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+/* 
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.card-prod{
+
+}
+.card-prod img {
+  height: auto;
+  width: 100%; */
+
+/*   
+}
+
+.description p{
+  position: absolute;
+ 
+  opacity: 1;
+}
+.card-prod:hover img{
+ opacity: 0;
+}
+.card-prod:hover .description{
+ opacity: 1; 
+
+}*/

@@ -1,0 +1,22 @@
+.contenedor-carrito li {
+  display: flex;
+  background-color: gray;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contenedor-carrito ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contenedor-carrito {
+  height: 100vh;
+}
+
+.interaction {
+  display: flex;
+  gap: 3px;
+}

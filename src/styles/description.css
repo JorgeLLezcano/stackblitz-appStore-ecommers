@@ -1,0 +1,63 @@
+.contenedor-description {
+  display: flex;
+  justify-content: center;
+ 
+  height: 100%;
+ 
+ 
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  /* flex-direction: row; */
+}
+
+.main-image {
+  width: 100%; /* Ajusta el ancho de la imagen principal según tus necesidades */
+  height: auto;
+  view-transition-name: product;
+}
+::view-transition-old(product),
+::view-transition-new(product) {
+  animation-duration: 2s;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px; /* Espacio entre la imagen principal y las miniaturas */
+  gap: 5px;
+}
+
+.thumbnail {
+  width: 100%; /* Ajusta el ancho de las miniaturas según tus necesidades */
+  height: auto;
+  /*margin-bottom: 10px;  Espacio entre las miniaturas */
+}
+.thumbnail.selected {
+  width: 100%; /* Ajusta el ancho de las miniaturas según tus necesidades */
+  height: auto;
+  /*margin-bottom: 10px;  Espacio entre las miniaturas */
+}
+.description {
+  margin-top: 20px; /* Espacio entre las imágenes y la descripción */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.description button {
+  background-color: red;
+  height: 30px;
+  color: white;
+  position: sticky;
+  z-index: 1;
+}
+.description h3{
+  clip-path: polygon(0% 0%, 75% 0%, 45% 54%, 75% 100%, 0 100%);
+  background-color: red;
+  color: yellow;
+  width: 200px;
+}
